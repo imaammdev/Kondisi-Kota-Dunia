@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11416C7A18BEF69500E72420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11416C7918BEF69500E72420 /* Foundation.framework */; };
+		11416C7C18BEF69500E72420 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11416C7B18BEF69500E72420 /* CoreGraphics.framework */; };
+		11416C7E18BEF69500E72420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11416C7D18BEF69500E72420 /* UIKit.framework */; };
+		11416C8418BEF69500E72420 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11416C8218BEF69500E72420 /* InfoPlist.strings */; };
+		11416C8618BEF69500E72420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11416C8518BEF69500E72420 /* main.m */; };
+		11416C8A18BEF69500E72420 /* kondisiKotaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11416C8918BEF69500E72420 /* kondisiKotaAppDelegate.m */; };
+		11416C8D18BEF69500E72420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11416C8B18BEF69500E72420 /* Main.storyboard */; };
+		11416C9018BEF69500E72420 /* kondisiKotaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11416C8F18BEF69500E72420 /* kondisiKotaViewController.m */; };
+		11416C9218BEF69500E72420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11416C9118BEF69500E72420 /* Images.xcassets */; };
+		11416C9918BEF69500E72420 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11416C9818BEF69500E72420 /* XCTest.framework */; };
+		11416C9A18BEF69500E72420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11416C7918BEF69500E72420 /* Foundation.framework */; };
+		11416C9B18BEF69500E72420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11416C7D18BEF69500E72420 /* UIKit.framework */; };
+		11416CA318BEF69500E72420 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11416CA118BEF69500E72420 /* InfoPlist.strings */; };
+		11416CA518BEF69500E72420 /* Kondisi_Kota_DuniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11416CA418BEF69500E72420 /* Kondisi_Kota_DuniaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11416C9C18BEF69500E72420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11416C6E18BEF69500E72420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11416C7518BEF69500E72420;
+			remoteInfo = "Kondisi Kota Dunia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11416C7618BEF69500E72420 /* Kondisi Kota Dunia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kondisi Kota Dunia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11416C7918BEF69500E72420 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11416C7B18BEF69500E72420 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11416C7D18BEF69500E72420 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11416C8118BEF69500E72420 /* Kondisi Kota Dunia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kondisi Kota Dunia-Info.plist"; sourceTree = "<group>"; };
+		11416C8318BEF69500E72420 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11416C8518BEF69500E72420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11416C8718BEF69500E72420 /* Kondisi Kota Dunia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kondisi Kota Dunia-Prefix.pch"; sourceTree = "<group>"; };
+		11416C8818BEF69500E72420 /* kondisiKotaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kondisiKotaAppDelegate.h; sourceTree = "<group>"; };
+		11416C8918BEF69500E72420 /* kondisiKotaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kondisiKotaAppDelegate.m; sourceTree = "<group>"; };
+		11416C8C18BEF69500E72420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11416C8E18BEF69500E72420 /* kondisiKotaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kondisiKotaViewController.h; sourceTree = "<group>"; };
+		11416C8F18BEF69500E72420 /* kondisiKotaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kondisiKotaViewController.m; sourceTree = "<group>"; };
+		11416C9118BEF69500E72420 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11416C9718BEF69500E72420 /* Kondisi Kota DuniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kondisi Kota DuniaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11416C9818BEF69500E72420 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		11416CA018BEF69500E72420 /* Kondisi Kota DuniaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kondisi Kota DuniaTests-Info.plist"; sourceTree = "<group>"; };
+		11416CA218BEF69500E72420 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11416CA418BEF69500E72420 /* Kondisi_Kota_DuniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kondisi_Kota_DuniaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11416C7318BEF69500E72420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11416C7C18BEF69500E72420 /* CoreGraphics.framework in Frameworks */,
+				11416C7E18BEF69500E72420 /* UIKit.framework in Frameworks */,
+				11416C7A18BEF69500E72420 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11416C9418BEF69500E72420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11416C9918BEF69500E72420 /* XCTest.framework in Frameworks */,
+				11416C9B18BEF69500E72420 /* UIKit.framework in Frameworks */,
+				11416C9A18BEF69500E72420 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11416C6D18BEF69500E72420 = {
+			isa = PBXGroup;
+			children = (
+				11416C7F18BEF69500E72420 /* Kondisi Kota Dunia */,
+				11416C9E18BEF69500E72420 /* Kondisi Kota DuniaTests */,
+				11416C7818BEF69500E72420 /* Frameworks */,
+				11416C7718BEF69500E72420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11416C7718BEF69500E72420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11416C7618BEF69500E72420 /* Kondisi Kota Dunia.app */,
+				11416C9718BEF69500E72420 /* Kondisi Kota DuniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11416C7818BEF69500E72420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11416C7918BEF69500E72420 /* Foundation.framework */,
+				11416C7B18BEF69500E72420 /* CoreGraphics.framework */,
+				11416C7D18BEF69500E72420 /* UIKit.framework */,
+				11416C9818BEF69500E72420 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11416C7F18BEF69500E72420 /* Kondisi Kota Dunia */ = {
+			isa = PBXGroup;
+			children = (
+				11416C8818BEF69500E72420 /* kondisiKotaAppDelegate.h */,
+				11416C8918BEF69500E72420 /* kondisiKotaAppDelegate.m */,
+				11416C8B18BEF69500E72420 /* Main.storyboard */,
+				11416C8E18BEF69500E72420 /* kondisiKotaViewController.h */,
+				11416C8F18BEF69500E72420 /* kondisiKotaViewController.m */,
+				11416C9118BEF69500E72420 /* Images.xcassets */,
+				11416C8018BEF69500E72420 /* Supporting Files */,
+			);
+			path = "Kondisi Kota Dunia";
+			sourceTree = "<group>";
+		};
+		11416C8018BEF69500E72420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11416C8118BEF69500E72420 /* Kondisi Kota Dunia-Info.plist */,
+				11416C8218BEF69500E72420 /* InfoPlist.strings */,
+				11416C8518BEF69500E72420 /* main.m */,
+				11416C8718BEF69500E72420 /* Kondisi Kota Dunia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11416C9E18BEF69500E72420 /* Kondisi Kota DuniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				11416CA418BEF69500E72420 /* Kondisi_Kota_DuniaTests.m */,
+				11416C9F18BEF69500E72420 /* Supporting Files */,
+			);
+			path = "Kondisi Kota DuniaTests";
+			sourceTree = "<group>";
+		};
+		11416C9F18BEF69500E72420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11416CA018BEF69500E72420 /* Kondisi Kota DuniaTests-Info.plist */,
+				11416CA118BEF69500E72420 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11416C7518BEF69500E72420 /* Kondisi Kota Dunia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11416CA818BEF69500E72420 /* Build configuration list for PBXNativeTarget "Kondisi Kota Dunia" */;
+			buildPhases = (
+				11416C7218BEF69500E72420 /* Sources */,
+				11416C7318BEF69500E72420 /* Frameworks */,
+				11416C7418BEF69500E72420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kondisi Kota Dunia";
+			productName = "Kondisi Kota Dunia";
+			productReference = 11416C7618BEF69500E72420 /* Kondisi Kota Dunia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11416C9618BEF69500E72420 /* Kondisi Kota DuniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11416CAB18BEF69500E72420 /* Build configuration list for PBXNativeTarget "Kondisi Kota DuniaTests" */;
+			buildPhases = (
+				11416C9318BEF69500E72420 /* Sources */,
+				11416C9418BEF69500E72420 /* Frameworks */,
+				11416C9518BEF69500E72420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11416C9D18BEF69500E72420 /* PBXTargetDependency */,
+			);
+			name = "Kondisi Kota DuniaTests";
+			productName = "Kondisi Kota DuniaTests";
+			productReference = 11416C9718BEF69500E72420 /* Kondisi Kota DuniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11416C6E18BEF69500E72420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = kondisiKota;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Lab;
+				TargetAttributes = {
+					11416C9618BEF69500E72420 = {
+						TestTargetID = 11416C7518BEF69500E72420;
+					};
+				};
+			};
+			buildConfigurationList = 11416C7118BEF69500E72420 /* Build configuration list for PBXProject "Kondisi Kota Dunia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11416C6D18BEF69500E72420;
+			productRefGroup = 11416C7718BEF69500E72420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11416C7518BEF69500E72420 /* Kondisi Kota Dunia */,
+				11416C9618BEF69500E72420 /* Kondisi Kota DuniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11416C7418BEF69500E72420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11416C9218BEF69500E72420 /* Images.xcassets in Resources */,
+				11416C8418BEF69500E72420 /* InfoPlist.strings in Resources */,
+				11416C8D18BEF69500E72420 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11416C9518BEF69500E72420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11416CA318BEF69500E72420 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11416C7218BEF69500E72420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11416C8618BEF69500E72420 /* main.m in Sources */,
+				11416C9018BEF69500E72420 /* kondisiKotaViewController.m in Sources */,
+				11416C8A18BEF69500E72420 /* kondisiKotaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11416C9318BEF69500E72420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11416CA518BEF69500E72420 /* Kondisi_Kota_DuniaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11416C9D18BEF69500E72420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11416C7518BEF69500E72420 /* Kondisi Kota Dunia */;
+			targetProxy = 11416C9C18BEF69500E72420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11416C8218BEF69500E72420 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11416C8318BEF69500E72420 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11416C8B18BEF69500E72420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11416C8C18BEF69500E72420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11416CA118BEF69500E72420 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11416CA218BEF69500E72420 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11416CA618BEF69500E72420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11416CA718BEF69500E72420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11416CA918BEF69500E72420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kondisi Kota Dunia/Kondisi Kota Dunia-Prefix.pch";
+				INFOPLIST_FILE = "Kondisi Kota Dunia/Kondisi Kota Dunia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11416CAA18BEF69500E72420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kondisi Kota Dunia/Kondisi Kota Dunia-Prefix.pch";
+				INFOPLIST_FILE = "Kondisi Kota Dunia/Kondisi Kota Dunia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		11416CAC18BEF69500E72420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kondisi Kota Dunia.app/Kondisi Kota Dunia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kondisi Kota Dunia/Kondisi Kota Dunia-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kondisi Kota DuniaTests/Kondisi Kota DuniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		11416CAD18BEF69500E72420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kondisi Kota Dunia.app/Kondisi Kota Dunia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kondisi Kota Dunia/Kondisi Kota Dunia-Prefix.pch";
+				INFOPLIST_FILE = "Kondisi Kota DuniaTests/Kondisi Kota DuniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11416C7118BEF69500E72420 /* Build configuration list for PBXProject "Kondisi Kota Dunia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11416CA618BEF69500E72420 /* Debug */,
+				11416CA718BEF69500E72420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11416CA818BEF69500E72420 /* Build configuration list for PBXNativeTarget "Kondisi Kota Dunia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11416CA918BEF69500E72420 /* Debug */,
+				11416CAA18BEF69500E72420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11416CAB18BEF69500E72420 /* Build configuration list for PBXNativeTarget "Kondisi Kota DuniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11416CAC18BEF69500E72420 /* Debug */,
+				11416CAD18BEF69500E72420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11416C6E18BEF69500E72420 /* Project object */;
+}
