@@ -13,8 +13,28 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    UIDevice *device = [UIDevice currentDevice];					//Get the device object
+	[device beginGeneratingDeviceOrientationNotifications];			//Tell it to start monitoring the accelerometer for orientation
+	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];	//Get the notification centre for the app
+	[nc addObserver:self											//Add yourself as an observer
+		   selector:@selector(orientationChanged:)
+			   name:UIDeviceOrientationDidChangeNotification
+			 object:device];
+    
     return YES;
 }
+
+
+
+
+- (void)orientationChanged:(NSNotification *)note
+{
+	NSLog(@"Orientation  has changed: %d", [[note object] orientation]);
+}
+
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

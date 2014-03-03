@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "hasilCekViewController.h"
 
-@interface kondisiKotaViewController : UIViewController
+@interface kondisiKotaViewController : UIViewController <UITextFieldDelegate>
+@property (strong, nonatomic) IBOutlet UITextField *fieldKota;
+- (IBAction)cekCuaca:(id)sender;
 
 @end
